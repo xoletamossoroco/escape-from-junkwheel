@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    jump call_for_help
+ScriptError: could not find label 'call_for_help'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    jump call_for_help
+  File "C:\Users\Lab\Downloads\renpy-8.2.3-sdk\renpy\ast.py", line 1701, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Lab\Downloads\renpy-8.2.3-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'call_for_help'.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.2.3.24061702
+Escape from Junkwhell 1.0
+Tue Jul 30 08:53:36 2024
